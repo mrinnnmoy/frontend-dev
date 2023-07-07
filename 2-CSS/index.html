@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn & Practise CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1 align="center">Learn CSS</h1>
+
+    <!-- Selectors -->
+    <h2>Selectors - Basic and Combitional.</h2>
+    <p class="basic-selectors">
+        CSS selectors are used to "find" (or select) the HTML elements you want to style.
+        Simple or Basic selectors (select elements based on name, id, class).
+    </p>
+
+    <div class="combinational-selectors">
+        <p>
+            A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator.
+        </p>
+    </div>
+
+
+    <!-- Pseudo - Selectors & Elements -->
+    <h2>Pseudo - Selectors and Elements</h2>
+    <p class="pseudo-elements">
+        A CSS pseudo-element is used to style specified parts of an element.
+        Eg: Style the first letter, or line, of an element.
+            Insert content before, or after, the content of an element.
+    </p>
+
+    <!-- Specificity -->
+    <h2>Specificity</h2>
+    <p class="specificity">
+        If there are two or more CSS rules that point to the same element, the selector with the highest specificity value will "win", and its style declaration will be applied to that HTML element.
+        Eg: we have used the "p" element as selector, and specified a red color for this element.
+    </p>
+
+    <!-- Inheritance -->
+    <h2>Inheritance</h2>
+    <p>
+        In CSS inheritance, the child element will naturally inherit properties from its parent element.
+        Eg:
+        <div id="parentClass">
+            Parent Div
+            <div id="div1Child">Child Div 1</div>
+            <div id="div2Child">Child Div 2</div>
+        </div>
+    </p>
+
+    <!-- Box Model -->
+    <h2>Box Model</h2>
+    <p>
+        In CSS, the term "box model" is used when talking about design and layout.
+        <br>
+        The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+        <br>
+        <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1681435329835/296d0696-be5c-4590-82b8-3ed75aa66ee7.png" alt="box-model" style="height: 400px; width: 600px;">
+    </p>
+
+    <!-- Fonts & Typography -->
+    <h2>Fonts & Typography</h2>
+    <p class="fonts">
+        Choosing the right font has a huge impact on how the readers experience a website.
+        The right font can create a strong identity for your brand.
+        Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+    </p>
+    <p>
+        Typography is all about style, proportions, and spacing. Good typography is not only imperative for aesthetic appeal, but it also improves site usability when text legibility and readability concepts are applied.
+    </p>
+
+    <!-- Colors -->
+    <h2>Colors</h2>
+    <p class="colors">
+        Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+    </p>
+
+    <!-- Layout -->
+    <h2>Layout</h2>
+    <p>
+        The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
+        <br>
+        There are five different position values:
+        <ul>
+            <li>static</li>
+            <li>relative</li>
+            <li>fixed</li>
+            <li>absolute</li>
+            <li>sticky</li>
+        </ul>
+    </p>
+
+    <!-- Units -->
+    <h2>Units</h2>
+    <div class="units">
+        <p>
+            CSS has several different units for expressing a length.
+        </p>
+        <!-- Using absolute units like cm, mm, in, px, etc. -->
+        <p class="ex1">Example 1</p>
+        <p class="ex2">Example 2</p>
+        <!-- Using relative units like em, ex, ch, rem, etc. -->
+        <p class="ex3">Example 3</p>
+        <p class="ex4">Example 4</p>
+    </div>
+
+    <!-- Overflow -->
+    <h2>Overflow</h2>
+    <p class="overflow">
+        The CSS overflow property controls what happens to content that is too big to fit into an area.
+        <br>
+        The overflow property has the following values:
+        <ul>
+            <li>visible</li>
+            <li>hidden</li>
+            <li>scroll</li>
+            <li>auto</li>
+        </ul>
+    </p>
+
+    <!-- Float -->
+    <h2>Float</h2>
+    <p class="float">
+        The CSS float property specifies how an element should float.
+        The CSS clear property specifies what elements can float beside the cleared element and on which side.
+        <img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80" alt="fruit-img">
+    </p>
+
+    <!-- Display -->
+    <h2>Display</h2>
+    <p class="display">
+        The display property specifies the display behavior (the type of rendering box) of an element.
+        <br>
+        Some different display value:
+        <ul class="display-list">
+            <li>none</li>
+            <li>inline</li>
+            <li>block</li>
+            <li>inline-block</li>
+        </ul>
+    </p>
+
+    <!-- Flexbox -->
+    <h2>Flexbox</h2>
+    <p>
+        The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
+        <div class="flex-container">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+        </div>
+    </p>
+
+</body>
+</html>
